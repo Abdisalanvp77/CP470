@@ -3,4 +3,7 @@
     <string name="app_name">Leyliska koowaad</string>
     <string name="hello_message">Aduunow ma nabad baa!</string>
     <string name="ButtonText">Waxan ahay baton</string>
+    <string name="login_text">Ciwankaga</string>
+    <string name="hint_text">ciwankaga kuqor halkan</string>
+    <string name="password_text">Baswardkaga</string>
 </resources>
