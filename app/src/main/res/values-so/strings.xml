@@ -3,7 +3,15 @@
     <string name="app_name">Leyliska koowaad</string>
     <string name="hello_message">Aduunow ma nabad baa!</string>
     <string name="ButtonText">Waxan ahay baton</string>
-    <string name="login_text">Ciwankaga</string>
+    <string name="login_text">Gal Bogaga</string>
     <string name="hint_text">ciwankaga kuqor halkan</string>
     <string name="password_text">Baswardkaga</string>
+    <string name="enter_password">gali baswardkaga halkan</string>
+    <string name="dialog_message">Ma doneysa inad kanoqoto boggan?</string>
+    <string name="dialog_title">Ka Noqo Boggan</string>
+    <string name="ok">HAA</string>
+    <string name="cancel">MAYA</string>
+    <string name="radio_button_text">DhibicQaate</string>
+    <string name="checkbox_button_text">SaxQaate</string>
+    <string name="switch_button_text">Maxu sameya kan?</string>
 </resources>
