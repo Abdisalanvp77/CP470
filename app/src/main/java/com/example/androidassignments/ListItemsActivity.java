@@ -55,14 +55,14 @@ public class ListItemsActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if (b) {
-                    CharSequence text = "Switch is On";// "Switch is Off"
+                    CharSequence text = getResources().getString(R.string.switch_toggle_on);// "Switch is Off"
                     int duration = Toast.LENGTH_SHORT; //= Toast.LENGTH_LONG if Off
 
                     Toast toast = Toast.makeText(ListItemsActivity.this , text, duration);
                     toast.show(); //display your message box
 
                 } else {
-                    CharSequence text = "Switch is Off";
+                    CharSequence text = getResources().getString(R.string.switch_toggle_off);
                     int duration = Toast.LENGTH_LONG;
 
                     Toast toast = Toast.makeText(ListItemsActivity.this , text, duration);
@@ -84,7 +84,7 @@ public class ListItemsActivity extends AppCompatActivity {
                             public void onClick(DialogInterface dialog, int id) {
                                 // User clicked OK button
                                 Intent resultIntent = new Intent(  );
-                                resultIntent.putExtra("Response", "Here is my response");
+                                resultIntent.putExtra("Response", getResources().getString(R.string.response_text));
                                 setResult(Activity.RESULT_OK, resultIntent);
                                 finish();
 

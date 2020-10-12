@@ -14,4 +14,7 @@
     <string name="radio_button_text">DhibicQaate</string>
     <string name="checkbox_button_text">SaxQaate</string>
     <string name="switch_button_text">Maxu sameya kan?</string>
+    <string name="switch_toggle_on">Nalka wu shidanyahay</string>
+    <string name="switch_toggle_off">Nalka wu dansanyahay</string>
+    <string name="response_text">Waatan natiijada</string>
 </resources>

@@ -13,4 +13,7 @@
     <string name="radio_button_text">RadioButton</string>
     <string name="checkbox_button_text">CheckBox</string>
     <string name="switch_button_text">What does this do?</string>
+    <string name="switch_toggle_on">Switch is On</string>
+    <string name="switch_toggle_off">Switch is Off</string>
+    <string name="response_text">Here is my response</string>
 </resources>
