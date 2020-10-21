@@ -29,5 +29,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.github.parse-community.Parse-SDK-Android:bolts-tasks:1.25.0'
+    implementation 'com.parse.bolts:bolts-tasks:1.4.0'
+    implementation 'com.parse:parse-android:1.17.3'
 
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'https://jitpack.io' }
 }

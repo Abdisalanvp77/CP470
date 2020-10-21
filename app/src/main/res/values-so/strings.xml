@@ -17,4 +17,7 @@
     <string name="switch_toggle_on">Nalka wu shidanyahay</string>
     <string name="switch_toggle_off">Nalka wu dansanyahay</string>
     <string name="response_text">Waatan natiijada</string>
+    <string name="start_chat">Billow Sheeko</string>
+    <string name="button">Dir</string>
+    <string name="enter_chat_hint">Halkan wax kuqor</string>
 </resources>

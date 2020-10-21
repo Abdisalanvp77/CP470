@@ -16,4 +16,7 @@
     <string name="switch_toggle_on">Switch is On</string>
     <string name="switch_toggle_off">Switch is Off</string>
     <string name="response_text">Here is my response</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="button">Send</string>
+    <string name="enter_chat_hint">Start typing</string>
 </resources>
