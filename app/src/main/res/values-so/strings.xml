@@ -20,4 +20,16 @@
     <string name="start_chat">Billow Sheeko</string>
     <string name="button">Dir</string>
     <string name="enter_chat_hint">Halkan wax kuqor</string>
+    <string name="title_activity_test_toolbar">BaarIsticmaalkaToolbar</string>
+    <string name="first_fragment_label">Fragmentiga kobaad</string>
+    <string name="second_fragment_label">Fragmentiga labaad</string>
+    <string name="hello_first_fragment">Hello Fragmentiga kobaad</string>
+    <string name="hello_second_fragment">Hello Fragmentiga labaad</string>
+    <string name="test_toolbar">Arag Toolbarka</string>
+    <string name="go_back">Ma dooneysaa ina noqoto?</string>
+    <string name="next">Gudub</string>
+    <string name="previous">Noqo</string>
+    <string name="change_snackbar_message">Badal akhbaarta ad arkeso</string>
+    <string name="change">Badal Qoraalka</string>
+    <string name="enter_your_message">Gali akhbaartada</string>
 </resources>

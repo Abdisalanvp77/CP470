@@ -43,5 +43,16 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
-
+    <Button
+        android:id="@+id/toolbarButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="#3F51B5"
+        android:onClick="onStartChat"
+        android:text="@string/test_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_chat_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
