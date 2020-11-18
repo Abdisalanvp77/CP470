@@ -39,6 +39,7 @@
     <string name="maxTemperature">Maximum Temperature</string>
     <string name="minTemperature">Minimum Temperature</string>
     <string name="currentTemperature">Current Temperature</string>
+    <string name="activity_title">Weather Activity</string>
     <string-array name="cities">
         <item>Abbotsford</item>
         <item>Alert</item>
