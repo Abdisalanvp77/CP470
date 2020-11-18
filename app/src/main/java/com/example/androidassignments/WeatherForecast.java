@@ -44,7 +44,7 @@ public class WeatherForecast extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather_forecast);
-        setTitle("Weather Tab");
+        setTitle("Weather Activity");
         imageView = findViewById(R.id.weatherIcon);
         progressBar = findViewById(R.id.progressBar);
         minTemp = findViewById(R.id.minTemperature);
