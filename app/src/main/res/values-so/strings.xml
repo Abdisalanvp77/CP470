@@ -32,4 +32,10 @@
     <string name="change_snackbar_message">Badal akhbaarta ad arkeso</string>
     <string name="change">Badal Qoraalka</string>
     <string name="enter_your_message">Gali akhbaartada</string>
+    <string name="show_weather">Tusi Cimilada</string>
+    <string name="icon_weather">Sawirka hawada</string>
+    <string name="select_a_canadian_city">Doro Magaalada</string>
+    <string name="maxTemperature">Herkulka Sare</string>
+    <string name="minTemperature">Herkulka Hoose</string>
+    <string name="currentTemperature">Herkulka Hada</string>
 </resources>

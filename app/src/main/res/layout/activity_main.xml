@@ -17,7 +17,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <Button
         android:id="@+id/button"
@@ -26,10 +26,9 @@
         android:text="@string/ButtonText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.185" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <Button
         android:id="@+id/start_chat_button"
@@ -40,9 +39,10 @@
         android:text="@string/start_chat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.109" />
+
     <Button
         android:id="@+id/toolbarButton"
         android:layout_width="160dp"
@@ -52,7 +52,20 @@
         android:text="@string/test_toolbar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/start_chat_button" />
+        app:layout_constraintTop_toBottomOf="@+id/start_chat_button"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:background="#AFB42B"
+        android:onClick="onStartWeather"
+        android:text="@string/show_weather"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarButton"
+        app:layout_constraintVertical_bias="0.095" />
 </androidx.constraintlayout.widget.ConstraintLayout>
